@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <style>
+        body{
+            padding: 10px;
+        }
+        .col-md-6{
+            outline: 1px dotted #369;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <div class="col-md-6">
+
+
+                <div class="btn-group">
+                    <!--dropdown menu. DOWN -->
+                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        DropDown menu<span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+
+
+                <!--dropdown menu. UP -->
+                <div class="btn-group dropup pull-right">  <!-- pull-right === float:right -->
+                    <!--
+                        dropdown menu.
+
+                        Caret is in charge of creating an arrrow.
+                        Crucial elements are:  "dropdown-toggle" class and  data-toggle="dropdown"
+                    -->
+                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        DropUp menu<span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="btn-group">
+                    <!--dropdown menu-->
+                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        DropDown menu<span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="btn-group">
+                    <!--dropdown menu-->
+                    <button class="btn btn-success">Выпадающее меню</button>
+                    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Lorem</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
